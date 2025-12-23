@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Views\AdminDashboardControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\EditStudentGradesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\LinkParentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\LoginControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\StudentProfileControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\TeacherDashboardControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Views\AdminDashboardControl.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\EditStudentGradesDialog.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\LinkParentDialog.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\LoginControl.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
